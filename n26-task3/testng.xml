@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Executing the Test cases in parallel with max thread count of 4-->
+<suite name="N26 API Test Suite" parallel="classes" thread-count="4">
+    <test name="N26 API tests" parallel="methods">
+        <classes>
+            <class name="com.n26.apiTest.PetsAPITest"/>
+        </classes>
+    </test>
+</suite>
