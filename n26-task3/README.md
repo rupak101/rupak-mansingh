@@ -4,7 +4,7 @@
 
 # Tools, Framework,Programming Language used:
 
-- RestAssured :Java library for testing restful API
+- RestAssured : Java library for testing restful API
 - maven : Build automation tool
 - TestNG : Testing framework for java programming language
 - Java : Automation Scripting language
@@ -13,11 +13,11 @@
 
 # Development environment :
 
-* All development and execution done on Mac OS.It should work on other OS(e.g windows) as well.
+* All development and execution done on Mac OS, should work on other OS(e.g windows) as well.
 
 ### Pre-requisite
 
-- java 8+(Java path should be set in macOS)
+- java 8+
 - Apache Maven
 - M2_HOME path should be set
 - Lombok plugin in IDE
@@ -73,13 +73,15 @@ a) Using command prompt
   mvn clean test
   ```
 - Run the command to generate allure report and open in a browser:
-  ```bash mvn allure:serve
+  ```
+  mvn allure:serve
   ```
 
 b) Using IDE :
 
-- Go to github, clone the repo `https://github.com/rupak101/rupak-mansingh.git` and open up in IDE.
-- IDE should have lombok plugin
+- Go to github, clone the repo `https://github.com/rupak101/rupak-mansingh.git`
+- Open folder `n26-task3 ` in IDE.
+- IDE should have lombok plugin.
 - Find `testng.xml`
 - Right click on it and run the tests.
 
